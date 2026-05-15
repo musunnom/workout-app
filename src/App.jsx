@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react"
-
 import {
   LineChart,
   Line,
@@ -17,14 +16,42 @@ function App() {
         reps: "15회",
         sets: 3,
         image:
-          "https://images.unsplash.com/photo-1517836357463-d25dfeac3438",
+          "https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg",
+      },
+      {
+        name: "덤벨 런지",
+        reps: "12회",
+        sets: 3,
+        image:
+          "https://images.pexels.com/photos/4498606/pexels-photo-4498606.jpeg",
+      },
+      {
+        name: "루마니안 데드리프트",
+        reps: "12회",
+        sets: 3,
+        image:
+          "https://images.pexels.com/photos/3838389/pexels-photo-3838389.jpeg",
+      },
+      {
+        name: "테이블 스텝업",
+        reps: "15회",
+        sets: 3,
+        image:
+          "https://images.pexels.com/photos/3764011/pexels-photo-3764011.jpeg",
       },
       {
         name: "플랭크",
-        reps: "30초",
+        reps: "45초",
         sets: 3,
         image:
-          "https://images.unsplash.com/photo-1518611012118-696072aa579a",
+          "https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg",
+      },
+      {
+        name: "레그레이즈",
+        reps: "15회",
+        sets: 3,
+        image:
+          "https://images.pexels.com/photos/4164761/pexels-photo-4164761.jpeg",
       },
     ],
 
@@ -34,82 +61,222 @@ function App() {
         reps: "12회",
         sets: 3,
         image:
-          "https://images.unsplash.com/photo-1534438327276-14e5300c3a48",
+          "https://images.pexels.com/photos/414029/pexels-photo-414029.jpeg",
       },
       {
         name: "숄더 프레스",
         reps: "12회",
         sets: 3,
         image:
-          "https://images.unsplash.com/photo-1517838277536-f5f99be501cd",
+          "https://images.pexels.com/photos/1229356/pexels-photo-1229356.jpeg",
+      },
+      {
+        name: "사이드 레터럴 레이즈",
+        reps: "15회",
+        sets: 3,
+        image:
+          "https://images.pexels.com/photos/6456308/pexels-photo-6456308.jpeg",
+      },
+      {
+        name: "봉 오버헤드 프레스",
+        reps: "12회",
+        sets: 3,
+        image:
+          "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg",
+      },
+      {
+        name: "슈퍼맨 자세",
+        reps: "15회",
+        sets: 3,
+        image:
+          "https://images.pexels.com/photos/4056723/pexels-photo-4056723.jpeg",
+      },
+      {
+        name: "버드독",
+        reps: "15회",
+        sets: 3,
+        image:
+          "https://images.pexels.com/photos/3076509/pexels-photo-3076509.jpeg",
       },
     ],
 
     wednesday: [
       {
-        name: "루마니안 데드리프트",
-        reps: "12회",
+        name: "버피",
+        reps: "10회",
         sets: 3,
         image:
-          "https://images.unsplash.com/photo-1517963879433-6ad2b056d712",
+          "https://images.pexels.com/photos/2294403/pexels-photo-2294403.jpeg",
       },
       {
-        name: "사이드 런지",
-        reps: "15회",
+        name: "마운틴 클라이머",
+        reps: "30초",
         sets: 3,
         image:
-          "https://images.unsplash.com/photo-1517838277536-f5f99be501cd",
-      },
-    ],
-
-    thursday: [
-      {
-        name: "푸쉬업",
-        reps: "15회",
-        sets: 3,
-        image:
-          "https://images.unsplash.com/photo-1518611012118-696072aa579a",
+          "https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg",
       },
       {
-        name: "덤벨 컬",
-        reps: "12회",
+        name: "제자리 스쿼트",
+        reps: "20회",
         sets: 3,
         image:
-          "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61",
+          "https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg",
       },
-    ],
-
-    friday: [
       {
-        name: "덤벨 런지",
-        reps: "15회",
+        name: "스텝 터치",
+        reps: "30초",
         sets: 3,
         image:
-          "https://images.unsplash.com/photo-1517836357463-d25dfeac3438",
+          "https://images.pexels.com/photos/4498151/pexels-photo-4498151.jpeg",
+      },
+      {
+        name: "니업",
+        reps: "20회",
+        sets: 3,
+        image:
+          "https://images.pexels.com/photos/4720236/pexels-photo-4720236.jpeg",
       },
       {
         name: "플랭크",
         reps: "45초",
         sets: 3,
         image:
-          "https://images.unsplash.com/photo-1518611012118-696072aa579a",
+          "https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg",
+      },
+    ],
+
+    thursday: [
+      {
+        name: "푸쉬업",
+        reps: "12회",
+        sets: 3,
+        image:
+          "https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg",
+      },
+      {
+        name: "테이블 인클라인 푸쉬업",
+        reps: "15회",
+        sets: 3,
+        image:
+          "https://images.pexels.com/photos/416717/pexels-photo-416717.jpeg",
+      },
+      {
+        name: "덤벨 컬",
+        reps: "12회",
+        sets: 3,
+        image:
+          "https://images.pexels.com/photos/5327466/pexels-photo-5327466.jpeg",
+      },
+      {
+        name: "킥백",
+        reps: "12회",
+        sets: 3,
+        image:
+          "https://images.pexels.com/photos/6456147/pexels-photo-6456147.jpeg",
+      },
+      {
+        name: "봉 컬",
+        reps: "12회",
+        sets: 3,
+        image:
+          "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg",
+      },
+      {
+        name: "플랭크 숄더터치",
+        reps: "20회",
+        sets: 3,
+        image:
+          "https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg",
+      },
+    ],
+
+    friday: [
+      {
+        name: "와이드 스쿼트",
+        reps: "15회",
+        sets: 3,
+        image:
+          "https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg",
+      },
+      {
+        name: "사이드 런지",
+        reps: "12회",
+        sets: 3,
+        image:
+          "https://images.pexels.com/photos/4498606/pexels-photo-4498606.jpeg",
+      },
+      {
+        name: "힙브릿지",
+        reps: "20회",
+        sets: 3,
+        image:
+          "https://images.pexels.com/photos/4662438/pexels-photo-4662438.jpeg",
+      },
+      {
+        name: "카프레이즈",
+        reps: "20회",
+        sets: 3,
+        image:
+          "https://images.pexels.com/photos/6740754/pexels-photo-6740754.jpeg",
+      },
+      {
+        name: "덤벨 데드리프트",
+        reps: "12회",
+        sets: 3,
+        image:
+          "https://images.pexels.com/photos/3838389/pexels-photo-3838389.jpeg",
+      },
+      {
+        name: "월싯",
+        reps: "45초",
+        sets: 3,
+        image:
+          "https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg",
       },
     ],
 
     saturday: [
       {
-        name: "버피 테스트",
-        reps: "10회",
-        sets: 3,
-        image:
-          "https://images.unsplash.com/photo-1517836357463-d25dfeac3438",
-      },
-      {
         name: "사이드 플랭크",
         reps: "30초",
         sets: 3,
         image:
-          "https://images.unsplash.com/photo-1518611012118-696072aa579a",
+          "https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg",
+      },
+      {
+        name: "데드버그",
+        reps: "15회",
+        sets: 3,
+        image:
+          "https://images.pexels.com/photos/4164761/pexels-photo-4164761.jpeg",
+      },
+      {
+        name: "크런치",
+        reps: "20회",
+        sets: 3,
+        image:
+          "https://images.pexels.com/photos/4162491/pexels-photo-4162491.jpeg",
+      },
+      {
+        name: "러시안 트위스트",
+        reps: "20회",
+        sets: 3,
+        image:
+          "https://images.pexels.com/photos/4720528/pexels-photo-4720528.jpeg",
+      },
+      {
+        name: "전신 스트레칭",
+        reps: "5분",
+        sets: 1,
+        image:
+          "https://images.pexels.com/photos/3823039/pexels-photo-3823039.jpeg",
+      },
+      {
+        name: "이완 운동",
+        reps: "5분",
+        sets: 1,
+        image:
+          "https://images.pexels.com/photos/317157/pexels-photo-317157.jpeg",
       },
     ],
   }
@@ -125,36 +292,55 @@ function App() {
   ]
 
   const today = days[new Date().getDay()]
-
   const exercises = workoutPlan[today] || []
 
-  const [doneList, setDoneList] = useState(() => {
-    const saved = localStorage.getItem(today)
-
-    return saved
-      ? JSON.parse(saved)
-      : exercises.map(exercise =>
-          Array(exercise.sets).fill(false)
-        )
-  })
-
+  const [doneList, setDoneList] = useState([])
   const [restTime, setRestTime] = useState(0)
-
   const [weight, setWeight] = useState("")
 
   const [weightHistory, setWeightHistory] =
     useState(() => {
       const saved =
         localStorage.getItem("weightHistory")
-
       return saved ? JSON.parse(saved) : []
     })
 
   useEffect(() => {
-    localStorage.setItem(
-      today,
-      JSON.stringify(doneList)
-    )
+    const saved = localStorage.getItem(today)
+
+    if (saved) {
+      const parsed = JSON.parse(saved)
+
+      const fixed = exercises.map(
+        (exercise, index) => {
+          if (
+            parsed[index] &&
+            parsed[index].length === exercise.sets
+          ) {
+            return parsed[index]
+          }
+
+          return Array(exercise.sets).fill(false)
+        }
+      )
+
+      setDoneList(fixed)
+    } else {
+      setDoneList(
+        exercises.map((exercise) =>
+          Array(exercise.sets).fill(false)
+        )
+      )
+    }
+  }, [today])
+
+  useEffect(() => {
+    if (doneList.length > 0) {
+      localStorage.setItem(
+        today,
+        JSON.stringify(doneList)
+      )
+    }
   }, [doneList, today])
 
   useEffect(() => {
@@ -165,14 +351,7 @@ function App() {
   }, [weightHistory])
 
   useEffect(() => {
-    if (restTime <= 0) {
-      if (restTime === 0) {
-        const audio = new Audio("/alarm.mp3")
-        audio.play()
-      }
-
-      return
-    }
+    if (restTime <= 0) return
 
     const timer = setTimeout(() => {
       setRestTime(restTime - 1)
@@ -181,15 +360,24 @@ function App() {
     return () => clearTimeout(timer)
   }, [restTime])
 
-  const toggleSet = (exerciseIndex, setIndex) => {
-    const newList = [...doneList]
+  const toggleSet = (
+    exerciseIndex,
+    setIndex
+  ) => {
+    const updated = [...doneList]
 
-    newList[exerciseIndex][setIndex] =
-      !newList[exerciseIndex][setIndex]
+    updated[exerciseIndex][setIndex] =
+      !updated[exerciseIndex][setIndex]
 
-    setDoneList(newList)
+    setDoneList(updated)
 
     setRestTime(45)
+
+    const audio = new Audio("/alarm.mp3")
+
+    setTimeout(() => {
+      audio.play()
+    }, 45000)
   }
 
   const saveWeight = () => {
@@ -217,17 +405,19 @@ function App() {
   )
 
   const completedSets =
-    doneList.flat().filter(done => done).length
+    doneList.flat().filter(Boolean).length
 
   const progress =
     totalSets > 0
-      ? Math.round((completedSets / totalSets) * 100)
+      ? Math.round(
+          (completedSets / totalSets) * 100
+        )
       : 0
 
   return (
     <div
       style={{
-        padding: "20px",
+        padding: "15px",
         backgroundColor: "#f3f4f6",
         minHeight: "100vh",
         fontFamily: "sans-serif",
@@ -236,167 +426,198 @@ function App() {
       <div
         style={{
           backgroundColor: "white",
-          padding: "30px",
+          padding: "20px",
           borderRadius: "20px",
-          maxWidth: "700px",
+          maxWidth: "520px",
           margin: "0 auto",
         }}
       >
-        <h1>오늘의 운동</h1>
+        <h1
+          style={{
+            textAlign: "center",
+            marginBottom: "10px",
+          }}
+        >
+          오늘의 운동
+        </h1>
 
-        <h2>{today.toUpperCase()}</h2>
+        <h2
+          style={{
+            textAlign: "center",
+            color: "#2563eb",
+          }}
+        >
+          {today.toUpperCase()}
+        </h2>
 
-        <p style={{ fontSize: "20px" }}>
-          진행률: {progress}%
-        </p>
-
-        <div style={{ marginBottom: "30px" }}>
-          <h3>오늘 몸무게</h3>
-
-          <input
-            type="number"
-            placeholder="몸무게 입력"
-            value={weight}
-            onChange={(e) =>
-              setWeight(e.target.value)
-            }
-            style={{
-              padding: "10px",
-              borderRadius: "8px",
-              border: "1px solid gray",
-              marginRight: "10px",
-            }}
-          />
-
-          <button
-            onClick={saveWeight}
-            style={{
-              padding: "10px 14px",
-              borderRadius: "8px",
-              border: "none",
-              backgroundColor: "black",
-              color: "white",
-            }}
-          >
-            기록 저장
-          </button>
-        </div>
-
-        <div style={{ marginBottom: "30px" }}>
-          <h3>최근 몸무게 기록</h3>
-
-          {weightHistory.map((item, index) => (
-            <p key={index}>
-              {item.date} : {item.weight}kg
-            </p>
-          ))}
-
-          <div
-            style={{
-              width: "100%",
-              height: "300px",
-              marginTop: "30px",
-            }}
-          >
-            <ResponsiveContainer>
-              <LineChart data={weightHistory}>
-                <XAxis dataKey="date" />
-
-                <YAxis
-                  domain={[
-                    "dataMin - 1",
-                    "dataMax + 1",
-                  ]}
-                />
-
-                <Tooltip />
-
-                <Line
-                  type="monotone"
-                  dataKey="weight"
-                />
-              </LineChart>
-            </ResponsiveContainer>
-          </div>
-        </div>
+        <h3
+          style={{
+            textAlign: "center",
+          }}
+        >
+          진행률 {progress}%
+        </h3>
 
         {restTime > 0 && (
           <div
             style={{
-              backgroundColor: "#e5e7eb",
-              padding: "15px",
-              borderRadius: "12px",
+              backgroundColor: "#dbeafe",
+              padding: "18px",
+              borderRadius: "14px",
               marginBottom: "20px",
+              textAlign: "center",
+              fontSize: "22px",
+              fontWeight: "bold",
             }}
           >
-            <h2>쉬는시간: {restTime}초</h2>
+            쉬는시간 {restTime}초
           </div>
         )}
 
-        {exercises.map((exercise, exerciseIndex) => (
+        <div
+          style={{
+            marginBottom: "30px",
+          }}
+        >
+          <h3>오늘 몸무게</h3>
+
           <div
-            key={exerciseIndex}
             style={{
-              background: "#ffffff",
-              padding: "20px",
-              marginBottom: "20px",
-              borderRadius: "16px",
-              border: "1px solid #d1d5db",
+              display: "flex",
+              gap: "10px",
             }}
           >
-            <img
-              src={exercise.image}
-              alt={exercise.name}
+            <input
+              type="number"
+              placeholder="몸무게 입력"
+              value={weight}
+              onChange={(e) =>
+                setWeight(e.target.value)
+              }
               style={{
-                width: "100%",
-                borderRadius: "12px",
-                marginBottom: "10px",
+                flex: 1,
+                padding: "14px",
+                borderRadius: "10px",
+                border: "1px solid #ccc",
+                fontSize: "16px",
               }}
             />
 
-            <h2>{exercise.name}</h2>
-
-            <p>
-              {exercise.reps} × {exercise.sets}세트
-            </p>
-
-            <div
+            <button
+              onClick={saveWeight}
               style={{
-                display: "flex",
-                gap: "10px",
-                flexWrap: "wrap",
+                padding: "14px 18px",
+                border: "none",
+                borderRadius: "10px",
+                backgroundColor: "black",
+                color: "white",
+                fontSize: "15px",
               }}
             >
-              {doneList[exerciseIndex]?.map(
-                (done, setIndex) => (
-                  <button
-                    key={setIndex}
-                    onClick={() =>
-                      toggleSet(
-                        exerciseIndex,
-                        setIndex
-                      )
-                    }
-                    style={{
-                      backgroundColor: done
-                        ? "green"
-                        : "black",
-                      color: "white",
-                      border: "none",
-                      padding: "12px 16px",
-                      borderRadius: "10px",
-                      cursor: "pointer",
-                    }}
-                  >
-                    {done
-                      ? `세트${setIndex + 1} 완료`
-                      : `세트${setIndex + 1}`}
-                  </button>
-                )
-              )}
-            </div>
+              저장
+            </button>
           </div>
-        ))}
+        </div>
+
+        <div
+          style={{
+            width: "100%",
+            height: "220px",
+            marginBottom: "30px",
+          }}
+        >
+          <ResponsiveContainer>
+            <LineChart data={weightHistory}>
+              <XAxis dataKey="date" />
+              <YAxis />
+              <Tooltip />
+              <Line
+                type="monotone"
+                dataKey="weight"
+              />
+            </LineChart>
+          </ResponsiveContainer>
+        </div>
+
+        {exercises.map(
+          (exercise, exerciseIndex) => (
+            <div
+              key={exerciseIndex}
+              style={{
+                backgroundColor: "#fff",
+                borderRadius: "18px",
+                padding: "18px",
+                marginBottom: "22px",
+                border: "1px solid #ddd",
+              }}
+            >
+              <img
+                src={exercise.image}
+                alt={exercise.name}
+                style={{
+                  width: "100%",
+                  height: "220px",
+                  objectFit: "cover",
+                  borderRadius: "14px",
+                  marginBottom: "14px",
+                }}
+              />
+
+              <h2>{exercise.name}</h2>
+
+              <p>
+                {exercise.reps} ×{" "}
+                {exercise.sets}세트
+              </p>
+
+              <div
+                style={{
+                  display: "flex",
+                  flexWrap: "wrap",
+                  gap: "10px",
+                  marginTop: "12px",
+                }}
+              >
+                {Array.from({
+                  length: exercise.sets,
+                }).map((_, setIndex) => {
+                  const done =
+                    doneList[exerciseIndex]?.[
+                      setIndex
+                    ] || false
+
+                  return (
+                    <button
+                      key={setIndex}
+                      onClick={() =>
+                        toggleSet(
+                          exerciseIndex,
+                          setIndex
+                        )
+                      }
+                      style={{
+                        backgroundColor: done
+                          ? "green"
+                          : "black",
+                        color: "white",
+                        border: "none",
+                        padding: "16px 18px",
+                        borderRadius: "12px",
+                        fontSize: "15px",
+                        minWidth: "110px",
+                        cursor: "pointer",
+                      }}
+                    >
+                      {done
+                        ? `${setIndex + 1}세트 완료`
+                        : `${setIndex + 1}세트`}
+                    </button>
+                  )
+                })}
+              </div>
+            </div>
+          )
+        )}
       </div>
     </div>
   )
