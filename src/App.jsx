@@ -16,43 +16,42 @@ function App() {
         reps: "15회",
         sets: 3,
         image:
-          "https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg",
+          "/images/덤벨스쿼트.png",
       },
       {
         name: "덤벨 런지",
         reps: "12회",
         sets: 3,
         image:
-          "https://images.pexels.com/photos/4498606/pexels-photo-4498606.jpeg",
+          "/images/덤벨런지.png",
       },
       {
         name: "루마니안 데드리프트",
         reps: "12회",
         sets: 3,
         image:
-          "https://images.pexels.com/photos/3838389/pexels-photo-3838389.jpeg",
+          "/images/루마니안데드리프트.png",
       },
       {
         name: "테이블 스텝업",
         reps: "15회",
         sets: 3,
         image:
-          "https://images.pexels.com/photos/3764011/pexels-photo-3764011.jpeg",
+          "/images/테이블스텝업.png",
       },
       {
         name: "플랭크",
         reps: "45초",
         sets: 3,
         image:
-          "https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg",
+          "/images/플랭크.png",
       },
       {
-        name: "레그레이즈",
-        reps: "15회",
-        sets: 3,
-        image:
-          "https://images.pexels.com/photos/4164761/pexels-photo-4164761.jpeg",
-      },
+  name: "레그레이즈",
+  reps: "15회",
+  sets: 3,
+  image: "/images/레그레이즈.png",
+},
     ],
 
     tuesday: [
@@ -61,42 +60,40 @@ function App() {
         reps: "12회",
         sets: 3,
         image:
-          "https://images.pexels.com/photos/414029/pexels-photo-414029.jpeg",
+          "/images/덤벨로우.png",
       },
       {
         name: "숄더 프레스",
         reps: "12회",
         sets: 3,
         image:
-          "https://images.pexels.com/photos/1229356/pexels-photo-1229356.jpeg",
+          "/images/숄더프레스.png",
       },
       {
         name: "사이드 레터럴 레이즈",
         reps: "15회",
         sets: 3,
         image:
-          "https://images.pexels.com/photos/6456308/pexels-photo-6456308.jpeg",
+          "/images/사이드레터럴레이즈.png",
       },
       {
-        name: "봉 오버헤드 프레스",
-        reps: "12회",
-        sets: 3,
-        image:
-          "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg",
-      },
-      {
-        name: "슈퍼맨 자세",
-        reps: "15회",
-        sets: 3,
-        image:
-          "https://images.pexels.com/photos/4056723/pexels-photo-4056723.jpeg",
-      },
+  name: "덤벨 컬",
+  reps: "12회",
+  sets: 3,
+  image: "/images/덤벨컬.png",
+},
+{
+  name: "킥백",
+  reps: "12회",
+  sets: 3,
+  image: "/images/킥백.png",
+},
       {
         name: "버드독",
         reps: "15회",
         sets: 3,
         image:
-          "https://images.pexels.com/photos/3076509/pexels-photo-3076509.jpeg",
+          "/images/버드독.png",
       },
     ],
 
@@ -106,43 +103,40 @@ function App() {
         reps: "10회",
         sets: 3,
         image:
-          "https://images.pexels.com/photos/2294403/pexels-photo-2294403.jpeg",
+          "/images/버피.png",
       },
       {
         name: "마운틴 클라이머",
         reps: "30초",
         sets: 3,
         image:
-          "https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg",
-      },
-      {
-        name: "제자리 스쿼트",
-        reps: "20회",
-        sets: 3,
-        image:
-          "https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg",
-      },
-      {
-        name: "스텝 터치",
-        reps: "30초",
-        sets: 3,
-        image:
-          "https://images.pexels.com/photos/4498151/pexels-photo-4498151.jpeg",
+          "/images/마운틴클라이머.png",
       },
       {
         name: "니업",
         reps: "20회",
         sets: 3,
         image:
-          "https://images.pexels.com/photos/4720236/pexels-photo-4720236.jpeg",
+          "/images/니업.png",
       },
       {
-        name: "플랭크",
-        reps: "45초",
-        sets: 3,
-        image:
-          "https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg",
-      },
+  name: "점핑잭",
+  reps: "30초",
+  sets: 3,
+  image: "/images/점핑잭.png",
+},
+{
+  name: "스쿼트 점프",
+  reps: "15회",
+  sets: 3,
+  image: "/images/스쿼트점프.png",
+},
+{
+  name: "플러터 킥",
+  reps: "30초",
+  sets: 3,
+  image: "/images/플러터킥.png",
+},
     ],
 
     thursday: [
@@ -151,88 +145,82 @@ function App() {
         reps: "12회",
         sets: 3,
         image:
-          "https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg",
-      },
-      {
-        name: "테이블 인클라인 푸쉬업",
-        reps: "15회",
-        sets: 3,
-        image:
-          "https://images.pexels.com/photos/416717/pexels-photo-416717.jpeg",
+          "/images/푸쉬업.png",
       },
       {
         name: "덤벨 컬",
         reps: "12회",
         sets: 3,
         image:
-          "https://images.pexels.com/photos/5327466/pexels-photo-5327466.jpeg",
+          "/images/덤벨컬.png",
       },
       {
         name: "킥백",
         reps: "12회",
         sets: 3,
         image:
-          "https://images.pexels.com/photos/6456147/pexels-photo-6456147.jpeg",
+          "/images/킥백.png",
       },
       {
-        name: "봉 컬",
-        reps: "12회",
-        sets: 3,
-        image:
-          "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg",
-      },
-      {
-        name: "플랭크 숄더터치",
-        reps: "20회",
-        sets: 3,
-        image:
-          "https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg",
-      },
+  name: "체어 딥스",
+  reps: "15회",
+  sets: 3,
+  image: "/images/체어딥스.png",
+},
+{
+  name: "인클라인 푸쉬업",
+  reps: "15회",
+  sets: 3,
+  image: "/images/인클라인푸쉬업.png",
+},
+{
+  name: "숄더 탭",
+  reps: "20회",
+  sets: 3,
+  image: "/images/숄더탭.png",
+},
     ],
 
     friday: [
-      {
-        name: "와이드 스쿼트",
-        reps: "15회",
-        sets: 3,
-        image:
-          "https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg",
-      },
-      {
-        name: "사이드 런지",
-        reps: "12회",
-        sets: 3,
-        image:
-          "https://images.pexels.com/photos/4498606/pexels-photo-4498606.jpeg",
-      },
       {
         name: "힙브릿지",
         reps: "20회",
         sets: 3,
         image:
-          "https://images.pexels.com/photos/4662438/pexels-photo-4662438.jpeg",
+          "/images/힙브릿지.png",
       },
       {
         name: "카프레이즈",
         reps: "20회",
         sets: 3,
         image:
-          "https://images.pexels.com/photos/6740754/pexels-photo-6740754.jpeg",
-      },
-      {
-        name: "덤벨 데드리프트",
-        reps: "12회",
-        sets: 3,
-        image:
-          "https://images.pexels.com/photos/3838389/pexels-photo-3838389.jpeg",
+          "/images/카프레이즈.png",
       },
       {
         name: "월싯",
         reps: "45초",
         sets: 3,
         image:
-          "https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg",
+          "/images/월싯.png",
       },
+      {
+  name: "스모 스쿼트",
+  reps: "15회",
+  sets: 3,
+  image: "/images/스모스쿼트.png",
+},
+{
+  name: "사이드 런지",
+  reps: "12회",
+  sets: 3,
+  image: "/images/사이드런지.png",
+},
+{
+  name: "글루트 킥백",
+  reps: "15회",
+  sets: 3,
+  image: "/images/글루트킥백.png",
+},
     ],
 
     saturday: [
@@ -241,43 +229,40 @@ function App() {
         reps: "30초",
         sets: 3,
         image:
-          "https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg",
-      },
-      {
-        name: "데드버그",
-        reps: "15회",
-        sets: 3,
-        image:
-          "https://images.pexels.com/photos/4164761/pexels-photo-4164761.jpeg",
+          "/images/사이드플랭크.png",
       },
       {
         name: "크런치",
         reps: "20회",
         sets: 3,
         image:
-          "https://images.pexels.com/photos/4162491/pexels-photo-4162491.jpeg",
+          "/images/크런치.png",
       },
       {
         name: "러시안 트위스트",
         reps: "20회",
         sets: 3,
         image:
-          "https://images.pexels.com/photos/4720528/pexels-photo-4720528.jpeg",
+          "/images/러시안트위스트.png",
       },
       {
-        name: "전신 스트레칭",
-        reps: "5분",
-        sets: 1,
-        image:
-          "https://images.pexels.com/photos/3823039/pexels-photo-3823039.jpeg",
-      },
-      {
-        name: "이완 운동",
-        reps: "5분",
-        sets: 1,
-        image:
-          "https://images.pexels.com/photos/317157/pexels-photo-317157.jpeg",
-      },
+  name: "바이시클 크런치",
+  reps: "20회",
+  sets: 3,
+  image: "/images/바이시클크런치.png",
+},
+{
+  name: "데드버그",
+  reps: "15회",
+  sets: 3,
+  image: "/images/데드버그.png",
+},
+{
+  name: "플러터 킥",
+  reps: "30초",
+  sets: 3,
+  image: "/images/플러터킥.png",
+},
     ],
   }
 
@@ -297,6 +282,7 @@ function App() {
   const [doneList, setDoneList] = useState([])
   const [restTime, setRestTime] = useState(0)
   const [weight, setWeight] = useState("")
+  const [selectedImage, setSelectedImage] = useState(null)
 
   const [weightHistory, setWeightHistory] =
     useState(() => {
@@ -432,12 +418,7 @@ function App() {
           margin: "0 auto",
         }}
       >
-        <h1
-          style={{
-            textAlign: "center",
-            marginBottom: "10px",
-          }}
-        >
+        <h1 style={{ textAlign: "center" }}>
           오늘의 운동
         </h1>
 
@@ -450,11 +431,7 @@ function App() {
           {today.toUpperCase()}
         </h2>
 
-        <h3
-          style={{
-            textAlign: "center",
-          }}
-        >
+        <h3 style={{ textAlign: "center" }}>
           진행률 {progress}%
         </h3>
 
@@ -474,11 +451,7 @@ function App() {
           </div>
         )}
 
-        <div
-          style={{
-            marginBottom: "30px",
-          }}
-        >
+        <div style={{ marginBottom: "30px" }}>
           <h3>오늘 몸무게</h3>
 
           <div
@@ -511,7 +484,6 @@ function App() {
                 borderRadius: "10px",
                 backgroundColor: "black",
                 color: "white",
-                fontSize: "15px",
               }}
             >
               저장
@@ -554,20 +526,23 @@ function App() {
               <img
                 src={exercise.image}
                 alt={exercise.name}
+                onClick={() =>
+                  setSelectedImage(exercise.image)
+                }
                 style={{
                   width: "100%",
                   height: "220px",
                   objectFit: "cover",
                   borderRadius: "14px",
                   marginBottom: "14px",
+                  cursor: "pointer",
                 }}
               />
 
               <h2>{exercise.name}</h2>
 
               <p>
-                {exercise.reps} ×{" "}
-                {exercise.sets}세트
+                {exercise.reps} × {exercise.sets}세트
               </p>
 
               <div
@@ -617,6 +592,35 @@ function App() {
               </div>
             </div>
           )
+        )}
+
+        {selectedImage && (
+          <div
+            onClick={() => setSelectedImage(null)}
+            style={{
+              position: "fixed",
+              top: 0,
+              left: 0,
+              width: "100%",
+              height: "100%",
+              backgroundColor: "rgba(0,0,0,0.9)",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              zIndex: 9999,
+              padding: "20px",
+            }}
+          >
+            <img
+              src={selectedImage}
+              alt="확대 이미지"
+              style={{
+                maxWidth: "100%",
+                maxHeight: "100%",
+                borderRadius: "16px",
+              }}
+            />
+          </div>
         )}
       </div>
     </div>
