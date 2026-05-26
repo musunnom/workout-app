@@ -276,8 +276,10 @@ function App() {
     "saturday",
   ]
 
-  const today = days[new Date().getDay()]
-  const exercises = workoutPlan[today] || []
+ const today = days[new Date().getDay()]
+const [selectedDay, setSelectedDay] = useState(today)
+
+const exercises = workoutPlan[selectedDay] || []
 
   const [doneList, setDoneList] = useState([])
   const [restTime, setRestTime] = useState(0)
@@ -421,6 +423,41 @@ function App() {
         <h1 style={{ textAlign: "center" }}>
           오늘의 운동
         </h1>
+        <div
+  style={{
+    display: "flex",
+    gap: "8px",
+    marginBottom: "20px",
+    flexWrap: "wrap",
+  }}
+>
+  {["monday", "tuesday", "wednesday", "thursday", "friday", "saturday"].map((day) => (
+    <button
+      key={day}
+      onClick={() => setSelectedDay(day)}
+      style={{
+        padding: "10px 14px",
+        borderRadius: "10px",
+        border: "none",
+        cursor: "pointer",
+        fontWeight: "bold",
+        background:
+          selectedDay === day ? "#4CAF50" : "#e0e0e0",
+        color:
+          selectedDay === day ? "white" : "black",
+      }}
+    >
+      {{
+        monday: "월",
+        tuesday: "화",
+        wednesday: "수",
+        thursday: "목",
+        friday: "금",
+        saturday: "토",
+      }[day]}
+    </button>
+  ))}
+</div>
 
         <h2
           style={{
